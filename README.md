@@ -2,6 +2,8 @@
 
 An extension of the `django.contrib.staticfiles.storage.ManifestStaticFilesStorage` that skips missing files and assets during the `python manage.py collectstatic` command run.
 
+Based on the tutorial I wrote on my blog [Make Django's collectstatic command forgiving](https://timonweb.com/tutorials/make-djangos-collectstatic-command-forgiving/).
+
 ## Installation
 
 Use pip:
